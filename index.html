@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_23</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="main">
+
+
+			<h2>Відео №1 (Оператори JAVASCRIPT. )</h2>
+			<p class="green">Варіант 2 вірно </p>
+			<p class="red">Варіант 1, 3, 4, 5 не вірно</p>
+			<p class="text">
+				У варіанті 1 результатом буде - "35-22" !
+			</p>
+			<p class="text">
+				У варіанті 4 результатом буде - "0" тому що <span>userCounter</span> має суфіксну форму інкремента
+				"++", 1 поверне перфіксна форма!
+			</p>
+			<p class="text">
+				У варіанті 5 результатом буде "11", тому шо після знаходження першого <span>true</span> оператор
+				"||"(або) - зупиняється
+			</p>
+			<p class="text">
+				У варіанті 6 результатом "0", тому що оператор "??" поверне перший аргумент, якщо він не <span>null /
+					undefined</span> !
+			</p>
+
+
+			<h2>Відео №2 (IF ELSE в JAVASCRIPT. Умовний оператор "?".)</h2>
+			<p class="green">Варіант 2, 3, 4 вірно </p>
+			<p class="red">Варіант 1 не вірно</p>
+			<p class="text">
+				Варіант 1 не поверне Істину, тому що використовується строге дорівнює (===), а воно не переводить тип даних
+				у <span>number</span>!
+			</p>
+			<p class="text">
+				Варіант 2 поверне Істину, тому що використовується не строге дорівнює (==), а воно переводить тип даних у
+				<span>number</span>!
+			</p>
+			<p class="text">
+				Варіант 3 поверне Істину, тому що логічний оператор "і"(&&) - знайшов два <span>true</span>!
+
+			</p>
+			<p class="text">
+				Варіант 4 поверне Істину, тому що "(0)" - це <span>false</span>, а пустий рядок повертає <span>true</span>!
+			</p>
+
+
+			<h2>Відео №3 (Цикли FOR и WHILE в JavaScript.)</h2>
+			<p class="red">Варіант 2 не вірно</p>
+			<p class="text">
+				Варіант 2 закінчить цикл на 1, тому що 0 - це false і тіло цикла не буде виконуватись.
+			</p>
+
+
+			<h2>Відео №4 (Числа в JAVASCRIPT. Тип даних number.)</h2>
+			<p class="text">
+				У задачі 1 дописуємо <span>Number.EPSILON</span> - це дуже мале число, яке допоможе вирішити задачу.
+			</p>
+
+
+			<h2>Відео №5 (Строки в JAVASCRIPT. Тип даних string.)</h2>
+
+			<p class="red">Варіант 1, 3 не вірно</p>
+
+			<p class="text">
+				У варіанті 1 - не вірні лапки, мають бути зворотні у змінній "text".
+			</p>
+			<p class="text">
+				Варіант 3 - не вірний, тому що додавання "+" не змінює тип даних на <span>number</span>, а залишає
+				<span>string</span>.
+			</p>
+			<p class="text">
+				Варіант 6 буде <span>false</span>, тому що "лан" починається з 3-го символу, а не з 4-го.
+			</p>
+
+
+
+		</main>
+		<footer class="footer"></footer>
+		<script src="js/script.js"></script>
+	</div>
+</body>
+
+</html>
